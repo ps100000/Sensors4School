@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ap="http://schemas.android.com/apk/res-auto"
+    tools:context=".Graph3">
+
+
+    <com.androidplot.xy.XYPlot
+        android:id="@+id/graph3"
+        style="@style/APDefacto.Dark"
+        androidplot.renderMode="use_background_thread"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        ap:domainTitle="x-Achse"
+        ap:lineLabelAlignBottom="center"
+        ap:lineLabels="left"
+        ap:rangeTitle="y-Achse"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lineLabelRotationBottom="0"
+        app:title="Spannung" />
+
+</android.support.constraint.ConstraintLayout>
+

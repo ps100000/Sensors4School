@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Sensors4School</string>
+    <string name="Fertig1">Fertig</string>
+    <string name="string1">Samplingrate</string>
+    <string name="string2">Messbereich</string>
+    <string name="string3">nicht Fertig</string>
+    <string name="string4">alle Werte anzeigen</string>
+</resources>
